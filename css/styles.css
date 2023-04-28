@@ -176,7 +176,7 @@ footer a {
 /*Adjust the media query max-width value on line 5 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
 @media only screen and (max-width: 34.9375rem) {
   nav {
-    background-color: #e03918;
+    background-color: #32b72d;
   }
   /* Navigation Button  -------------------------------------------------------- */
   nav button {
