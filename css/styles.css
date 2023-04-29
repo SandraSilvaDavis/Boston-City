@@ -137,7 +137,14 @@ header h1 {
 /* NAVIGATION STUFF GOES HERE  */
 /* MAIN  */
 main {
+  /* --slider --*/
   /* FOOTER  */
+}
+main p {
+  padding: 1rem 2%;
+}
+main .swiper-wrapper {
+  margin-bottom: 25px;
 }
 main .swiper {
   width: 100%;
