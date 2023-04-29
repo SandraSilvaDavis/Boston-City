@@ -68,10 +68,13 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide"><img src="images/-large.jpeg"></div>
-      <div class="swiper-slide"><img src="images/main-small.jpeg"></div>
-      <div class="swiper-slide"><img src="images/main-small.jpeg"></div>
-      ...
+      <picture>
+<source srcset="images/header-small.jpg" media="(max-width:28.12rem)">
+<source src="images/-header-medium.jpg" media="(min-width: 28.12rem)">
+<img src="images/-header-large.jpg" alt="slider">
+</picture>
+<p><b>Summer day in Boston Bridge</b></p>
+     
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
