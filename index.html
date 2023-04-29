@@ -5,15 +5,33 @@
 	<meta charset="utf-8"/>
 	<title>Navigation Example</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+	
 
 <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+<!--STYLE SHEETS -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+<link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+
+
 
 </head>
-
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
 <body>
 <div id="headerWrapper">
 	<header>
@@ -73,6 +91,7 @@
          </footer>
 </div> <!-- end footer wrapper -->
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    <script src="js/scripts.js"></script>
 </body>
 </html> 
