@@ -206,7 +206,7 @@ footer a {
 /*Adjust the media query max-width value on line 5 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
 @media only screen and (max-width: 34.9375rem) {
   nav {
-    background-color: #32b72d;
+    background-color: #0ee;
   }
   /* Navigation Button  -------------------------------------------------------- */
   nav button {
@@ -283,7 +283,7 @@ footer a {
     display: none;
   }
   nav {
-    background-color: #32b72d;
+    background-color: #0ee;
   }
   nav ul {
     display: flex;
@@ -313,7 +313,7 @@ footer a {
   ul li ul {
     display: flex;
     flex-direction: column;
-    background-color: #2ca328;
+    background-color: #00d5d5;
     border: none;
     width: 14rem;
     position: absolute;
@@ -338,4 +338,8 @@ footer a {
     margin: auto;
   }
   /* NAVIGATION STUFF GOES HERE  */
+  nav ul li a {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
 }
