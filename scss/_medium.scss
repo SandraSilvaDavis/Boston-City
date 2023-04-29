@@ -30,6 +30,17 @@ nav{
             display: flex;
             flex-direction: column;
             background-color: darken($menuColor,5);
-}
+            border: none;
+            width: 14rem;
+            position: absolute;
+            left: -999rem;
+            
+}// child ul
+
+ul li ul li {
+    border-right: none;
+    border-top: solid 1px rgba(0,0,0,0.2)
+
+}// child li
 
     //END NAV
