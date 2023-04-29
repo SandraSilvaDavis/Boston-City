@@ -10,7 +10,7 @@ hb.addEventListener(`click`, () => {
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
-  speed: 2000, 
+  speed: 3000, 
   loop: true,
 
   // If we need pagination
@@ -20,7 +20,7 @@ const swiper = new Swiper('.swiper', {
 
   // Enable autoplay 
   autoplay: {
-    delay: 5000, 
+    delay: 6000, 
   },
 
 });
