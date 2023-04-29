@@ -57,7 +57,7 @@ main {
     margin-bottom:  25px;
    //dots bellow the image
  }
-    .swiper { 
+    .swiper r { 
     width:100%;
     height:auto;
     
@@ -87,11 +87,7 @@ b{font-weight: $lightWeight;}
         color: $secondaryColor;
         font-weight: $lightWeight
     }
-    .hero {width: 100%;}
-    .hero img {
-        width: 100%;
-        height: auto;
-    }
+  
  // end main
 
 

@@ -146,11 +146,11 @@ main p {
 main .swiper-wrapper {
   margin-bottom: 25px;
 }
-main .swiper {
+main .swiper r {
   width: 100%;
   height: auto;
 }
-main .swiper img {
+main .swiper r img {
   width: 100%;
   display: block;
 }
@@ -177,13 +177,6 @@ main h1 {
   font-size: 1.5rem;
   color: #265b7d;
   font-weight: 300;
-}
-main .hero {
-  width: 100%;
-}
-main .hero img {
-  width: 100%;
-  height: auto;
 }
 main #footerWrapper {
   background-color: #1b1b1b;
