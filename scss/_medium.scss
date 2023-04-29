@@ -17,6 +17,8 @@ nav{
         padding: .9rem 1.2rem;
         color: rgba(225,255,255,.9);
         text-decoration: none;
+        transition: background 0.3s linear;
+        
     }
     ul li a:hover{background: rgba(0,0,0,0.5);}
 
@@ -34,7 +36,8 @@ nav{
             width: 14rem;
             position: absolute;
             left: -999rem;
-            
+            z-index: 99;
+
 }// child ul
 
 ul li ul li {
@@ -43,4 +46,11 @@ ul li ul li {
 
 }// child li
 
+ul li:hover ul {
+    left: auto;
+    margin-left: 0;
+}
+li.actiuve a{
+    background-color: rgba(0,0,0,0.25);
+}
     //END NAV
