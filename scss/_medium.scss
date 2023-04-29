@@ -1,1 +1,35 @@
 /* NAVIGATION STUFF GOES HERE  */
+nav button {display:none;}
+
+nav{
+    background-color: $menuColor;
+
+    ul {
+        display:flex;
+        margin-left: 2%;
+        border-left: 1px solid rgba( 0,0,0, 0.1);}
+    }
+    ul li {border-right: 1px solid rgba( 0,0,0, 0.1);}
+
+    ul li a {
+        display:block;
+        font-size: 1rem;
+        padding: .9rem 1.2rem;
+        color: rgba(225,255,255,.9);
+        text-decoration: none;
+    }
+    ul li a:hover{background: rgba(0,0,0,0.5);}
+
+        #primaryNav li.parent > a:after {
+            content: "\25BC";
+            font-size: .65rem;
+            color: rgba(255,255,255,0.5);
+            float: left;
+        }
+        ul li ul {
+            display: flex;
+            flex-direction: column;
+            background-color: darken($menuColor,5);
+}
+
+    //END NAV

@@ -136,7 +136,24 @@ header h1 {
 
 /* NAVIGATION STUFF GOES HERE  */
 /* MAIN  */
-main {
+main p {
+  padding: 1rem 2%;
+}
+main slider .swiper-wraper {
+  margin-bottom: 25px;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+.swiper img {
+  width: 100%;
+  display: block;
+}
+
+p {
+  margin: 0;
   padding: 0.4rem 2vw;
   position: absolute;
   transform: translateY(-100%);
@@ -145,16 +162,29 @@ main {
   color: white;
   width: 100%;
 }
-main h1 {
+
+b {
+  font-weight: 300;
+}
+
+p {
+  padding: 0.5rem 2vw;
+  color: #333;
+  line-height: 125%;
+}
+
+h1 {
   padding: 1rem 2vw 0.5rem 2vw;
   font-size: 1.5rem;
   color: #265b7d;
   font-weight: 300;
 }
-main .hero {
+
+.hero {
   width: 100%;
 }
-main .hero img {
+
+.hero img {
   width: 100%;
   height: auto;
 }
@@ -223,8 +253,8 @@ footer a {
     background: rgba(0, 0, 0, 0.5);
   }
   #primaryNav li.parent > a:after {
-    font-size: 0.75rem;
-    content: "▼";
+    font-size: 1rem;
+    content: "⋮";
     color: rgba(255, 255, 255, 0.5);
     float: right;
   }
@@ -249,6 +279,41 @@ footer a {
 } /* End Mobile Styles */
 @media only screen and (min-width: 35rem) {
   /* NAVIGATION STUFF GOES HERE  */
+  nav button {
+    display: none;
+  }
+  nav {
+    background-color: #32b72d;
+  }
+  nav ul {
+    display: flex;
+    margin-left: 2%;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  ul li {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  ul li a {
+    display: block;
+    font-size: 1rem;
+    padding: 0.9rem 1.2rem;
+    color: rgba(225, 255, 255, 0.9);
+    text-decoration: none;
+  }
+  ul li a:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  #primaryNav li.parent > a:after {
+    content: "▼";
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+  }
+  ul li ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #2ca328;
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
