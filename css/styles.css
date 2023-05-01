@@ -121,6 +121,31 @@ body {
 }
 
 /* HEADER  */
+div#headerWrapper {
+  background-image: url(../images/headersmall.jpg);
+  background-repeat: no-repeat;
+  height: 175px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+header {
+  color: white;
+}
+
+div#titleWrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.4rem 2vw;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: medium;
+}
+
 header {
   display: grid;
   grid-template-columns: 51px auto;
@@ -128,16 +153,22 @@ header {
   padding: 0.5rem 2vw;
 }
 header h1 {
-  font-size: 1.6rem;
+  font-size: 3.6rem;
   font-weight: 300;
-  padding-left: 0.5rem;
-  color: #cc7a26;
+  margin: 0;
+  padding: 0.4rem 2vw;
+  position: absolute;
+  transform: translateY(10%) translatey(-10%) translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  width: 100%;
 }
 
 /* NAVIGATION STUFF GOES HERE  */
 /* MAIN  */
 main h1 {
-  color: #483F52;
+  color: #523f3f;
 }
 
 main .swiper-wrapper {
@@ -246,7 +277,7 @@ footer a {
 /*Adjust the media query max-width value on line 5 to match your breakpoint between the small and medium screens OR between the medium and large screens*/
 @media only screen and (max-width: 34.9375rem) {
   nav {
-    background-color: #0ee;
+    background-color: rgb(159, 61, 29);
   }
   /* Navigation Button  -------------------------------------------------------- */
   nav button {
@@ -318,12 +349,20 @@ footer a {
   }
 } /* End Mobile Styles */
 @media only screen and (min-width: 35rem) {
+  div#headerWrapper {
+    background-image: url(../images/headermedium.jpg);
+    height: 200px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
   /* NAVIGATION STUFF GOES HERE  */
   nav button {
     display: none;
   }
   nav {
-    background-color: #0ee;
+    background-color: rgb(159, 61, 29);
   }
   nav ul {
     display: flex;
@@ -353,7 +392,7 @@ footer a {
   ul li ul {
     display: flex;
     flex-direction: column;
-    background-color: #00d5d5;
+    background-color: #893519;
     border: none;
     width: 14rem;
     position: absolute;
@@ -382,6 +421,11 @@ footer a {
   }
 }
 @media only screen and (min-width: 64rem) {
+  div#headerWrapper {
+    background-image: url(../images/headerboston.jpg);
+    height: 200px;
+    background-position: center;
+  }
   header, nav, main {
     max-width: 1240px;
     margin: auto;
@@ -398,3 +442,4 @@ footer a {
     flex-basis: 25%;
   }
 }
+

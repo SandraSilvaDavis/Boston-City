@@ -23,10 +23,30 @@ div.topbar {
  
 }
 div#headerWrapper{
-  background-image:url(../images/header-small.jpg);
+  background-image: url(../images/headersmall.jpg);
   background-repeat:no-repeat;
-  height:150px;
+  height:175px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+
+header {
+  color: white;
+}
+
+div#titleWrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.4rem 2vw;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: medium;
+}
+
 
 header {
     display: grid;
@@ -37,7 +57,7 @@ header {
         font-size: 1.6rem;
         font-weight: $lightWeight;
         padding-left: .5rem;
-        color: $primaryColor;
+        color: whitesmoke;
     }
 } // end header
 
@@ -103,6 +123,7 @@ div.cards {
 }
 div.cards div h3 {
   font-size: 1.5rem;
+  color:#eee;
 }
 div.cards div:nth-child(1) {
   background-image: url("../images/bostonluxury.jpg");
