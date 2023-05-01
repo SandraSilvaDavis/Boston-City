@@ -1,3 +1,11 @@
+//HEADER//
+div#headerWrapper {
+    background-image:url(../images/header-large.jpg);
+    height:400px;
+   background-size:cover;
+   background-position: center bottom;
+  }
+  
 header, nav, main {
     max-width: 1240px;
     margin: auto;
@@ -10,3 +18,10 @@ nav ul li a {
     padding: .5rem 1.2rem;
 
 }
+
+ /*----------- MAIN --------------*/
+ @media only screen and (min-width: 1200px) {
+    div.cards div {
+      flex-basis: 25%;
+    }
+  }

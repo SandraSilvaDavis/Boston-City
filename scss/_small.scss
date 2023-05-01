@@ -14,6 +14,20 @@ body {
 
 
 /* HEADER  */
+div.topbar {
+  background-color: black;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: $boldWeight;
+  padding: 1rem 2vw;
+ 
+}
+div#headerWrapper{
+  background-image:url(../images/header-small.jpg);
+  background-repeat:no-repeat;
+  height:150px;
+}
+
 header {
     display: grid;
     grid-template-columns: 51px auto;
@@ -28,6 +42,7 @@ header {
 } // end header
 
 /* NAVIGATION STUFF GOES HERE  */
+
 
 
 
@@ -74,6 +89,61 @@ main p {
   color: white;
   width: 100%;
 }
+//Cards
+div.cards {
+  flex-basis: 100%;
+}
+div.cards-move {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.cards {
+  width: 100%;
+  text-align: center;
+}
+div.cards div h3 {
+  font-size: 1.5rem;
+}
+div.cards div:nth-child(1) {
+  background-image: url("../images/bostonluxury.jpg");
+}
+div.cards div:nth-child(2) {
+  background-image: url("../images/artboston.jpg");
+}
+div.cards div:nth-child(3) {
+  background-image: url("../images/dining.jpg");
+}
+div.cards div:nth-child(4) {
+  background-image: url("../images/taxi.jpg");
+}
+div.cards div:nth-child(1) a {
+  background-color: #e96625;
+}
+div.cards div:nth-child(2) a {
+  background-color: rgb(160, 82, 26);
+}
+div.cards div:nth-child(3) a {
+  background-color: rgb(112, 156, 103);
+}
+div.cards div:nth-child(4) a {
+  background-color: rgb(84, 116, 211);
+}
+div.cards div a {
+  display: block;
+  width: 100%;
+  height: 300px;
+  text-decoration: none;
+  padding: 0 2%;
+  transition: all 0.5s ease-in;
+}
+div.cards div a:hover {
+  background: none;
+  text-shadow: 0 0 4px white;
+}
+
+
+
+
   
  // end main
 
